@@ -1,0 +1,23 @@
+{
+  "name": "acf/ctd-tab-group",
+  "title": "Tab Group",
+  "description": "Container for a group of tabs.",
+  "category": "layout",
+  "icon": "index-card",
+  "style": "ctd-tabs",
+  "editorStyle": "ctd-tabs-editor",
+  "script": "ctd-tabs",
+  "keywords": ["tabs", "group", "panels"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "ctd-tab-group.php"
+  },
+  "supports": {
+    "align": true,
+    "jsx": true,
+    "innerBlocks": {
+      "allowedBlocks": ["acf/ctd-single-tab"],
+      "templateLock": false
+    }
+  }
+}

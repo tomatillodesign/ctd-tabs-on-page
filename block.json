@@ -1,0 +1,17 @@
+{
+  "name": "acf/ctd-single-tab",
+  "title": "Single Tab",
+  "description": "Individual tab and its content.",
+  "category": "layout",
+  "icon": "excerpt-view",
+  "parent": ["acf/ctd-tab-group"],
+  "keywords": ["tab", "single"],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "ctd-single-tab.php"
+  },
+  "supports": {
+    "jsx": true,
+    "innerBlocks": true
+  }
+}

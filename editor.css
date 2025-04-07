@@ -1,0 +1,64 @@
+
+.wp-admin .editor-styles-wrapper {
+
+    .ctd-tabs {
+        display: block;
+    }
+
+    /* Tab Group wrapper block */
+    .wp-block-acf-ctd-tab-group {
+      padding: 20px;
+      background: #fafafa;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+      margin-bottom: 2rem;
+      position: relative;
+    }
+  
+    /* Internal ID at top */
+    .wp-block-acf-ctd-tab-group::before {
+      content: attr(data-tab-group-id);
+      display: block;
+      font-size: 12px;
+      font-style: italic;
+      color: #999;
+      background: #eee;
+      padding: 6px 10px;
+      margin-bottom: 1rem;
+      border-radius: 4px;
+    }
+  
+    /* Single Tab block */
+    .wp-block-acf-ctd-single-tab {
+      padding: 30px;
+      background: #f5f5f5;
+      border: 1px dashed #ccc;
+      border-radius: 6px;
+      margin-bottom: 1.5rem;
+    }
+  
+    /* Tab Contents block (inside Single Tab) */
+    .wp-block-acf-ctd-single-tab-contents {
+      margin-top: 1rem;
+    }
+
+    .ctd-tabs__toc {
+      background: transparent;
+      box-shadow: none;
+    }
+
+    .ctd-tabs__toc [role="tab"],
+    .ctd-tabs__content {
+      display: none;
+    }
+
+
+
+    .ctd-tab-group-id {
+      padding-bottom: 12px;
+      opacity: 0.5;
+    }
+  
+  }
+  
