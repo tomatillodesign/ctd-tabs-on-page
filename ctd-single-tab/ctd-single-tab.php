@@ -1,6 +1,6 @@
 <?php
 $tab_label = get_field('tab_label') ?: 'Tab';
-$tab_slug = sanitize_title($tab_label);
+$tab_slug = 'tab-' . sanitize_title($tab_label);
 ?>
 <div class="ctd-single-tab">
   
